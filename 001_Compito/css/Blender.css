@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+html, body {
+	font-family: 'Acme', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	color: white;
+	background-color: black;
+}
+
+#immagine {
+	background-image: url("../img/GosBond.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+#Logo {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	height: 250px;
+	width: 250px;
+}
+
+#Cont {
+	max-width: 1370px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	padding: 30px;
+}
+
+#Cont hr{
+	border: 2px solid white;
+}
+
+
+.col-lg-6{
+	padding: 15px 15px 15px 15px;
+}
